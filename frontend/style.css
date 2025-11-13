@@ -1,0 +1,14 @@
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn {
+    background-color: #68e62d;
+    color: white:
+    border: none:
+    margin-bottom: 200px;
+     
+
+}
