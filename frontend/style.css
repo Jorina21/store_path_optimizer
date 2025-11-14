@@ -6,9 +6,25 @@
 
 .btn {
     background-color: #68e62d;
-    color: white:
-    border: none:
+    color: white;
+    border: none;
     margin-bottom: 200px;
-     
+    
+}
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 20px;
+}
+
+.left, .right {
+    width: 45%
+}
+
+.divider {
+    width: 2px;
+    background-color: #ccc;
+    height:100%
 }
