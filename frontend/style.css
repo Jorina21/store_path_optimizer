@@ -28,3 +28,17 @@
     background-color: #ccc;
     height:100%
 }
+
+.home_btn {
+    background-color: rgb(9, 16, 221);
+    padding: 10px 120px;
+    
+}
+
+.home_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    text-align: center;
+}
