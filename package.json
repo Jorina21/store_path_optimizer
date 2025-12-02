@@ -1,0 +1,13 @@
+{
+  "name": "store-path-optimizer",
+  "version": "1.0.0",
+  "description": "A small full stack project using HTML, CSS and Javascript and Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
