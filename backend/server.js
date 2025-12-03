@@ -13,8 +13,12 @@ app.get("/", (req, res) => {
 }); 
 
 app.get("/login", (req,res) => {
-    res.sendFile(path.join(config.PAGES_DIR, "home.html"));
+    res.sendFile(path.join(config.PAGES_DIR, "login.html"));
 });
+
+app.get("/options", (req, res) => {
+    res.sendFile(path.join(config.PAGES_DIR, "options.html"))
+})
 
 //start server
 app.listen(config.PORT, () => console.log("server is running at http://localhost:${config.PORT}")
