@@ -20,6 +20,10 @@ app.get("/options", (req, res) => {
     res.sendFile(path.join(config.PAGES_DIR, "options.html"))
 })
 
+app.get("/sign_up", (req, res) => {
+    res.sendFile(path.join(config.PAGES_DIR, "signup.html"))
+})
+
 //start server
 app.listen(config.PORT, () => console.log("server is running at http://localhost:${config.PORT}")
 ); 

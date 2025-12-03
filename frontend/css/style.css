@@ -1,44 +1,123 @@
-.btn-group {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+/* ====== GLOBAL ====== */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-.btn {
-    background-color: #68e62d;
-    color: white;
-    border: none;
-    margin-bottom: 200px;
-    
+.bg-light {
+    background-color: #f5f5f5;
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-    height: 100vh;
-    padding: 20px;
+h1, h2, p {
+    margin: 0;
 }
 
-.left, .right {
-    width: 45%
-}
-
-.divider {
-    width: 2px;
-    background-color: #ccc;
-    height:100%
-}
-
-
-.home_container{
+/* ====== HOME PAGE ====== */
+.home_container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 250px;
+    height: 100vh;
     text-align: center;
 }
 
+.home_box {
+    background: white;
+    padding: 40px 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.subtitle {
+    margin-top: 10px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
 .home_btn {
-    display: inline-block;
-    padding: 10px 20px; 
+    display: block;
+    margin: 10px auto;
+    padding: 12px 20px;
+    width: 200px;
+    text-align: center;
+
+    background-color: #2e86ff;
+    color: white;
+    text-decoration: none;
+
+    border-radius: 8px;
+    font-size: 16px;
+
+    transition: 0.2s ease;
+}
+
+.home_btn:hover {
+    background-color: #1a63c6;
+}
+
+.home_btn_secondary {
+    background-color: #34c759;
+}
+
+.home_btn_secondary:hover {
+    background-color: #239b43;
+}
+
+/* ====== LOGIN FORM ====== */
+.form_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form_box {
+    background: white;
+    padding: 40px 50px;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.input_group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.input_group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.input_group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+}
+
+.submit_btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #2e86ff;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.submit_btn:hover {
+    background-color: #1a63c6;
+}
+
+.form_footer {
+    margin-top: 15px;
+    font-size: 14px;
 }
